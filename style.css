@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    background-color: #F6F6F4;
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    height: 110px;
+    width: 96%;
+    background-color: #F6F6F4;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: relative ;
+}
+#left{
+  font-size: 15px;  
+  color: black;
+  position: absolute;
+  top: 78px;
+  left:5px;
+  display: flex;
+  letter-spacing: 1px;
+  gap: 27px;
+}
+#center{
+    font-size: 43px;
+    color: black;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#right{
+    font-size: 15px;
+    color: black;
+    position: absolute;
+    top: 78px;
+    right: 10px;
+    display: flex;
+    letter-spacing: 1px;
+    gap: 27px;
+}
+#picture{
+    height: 86%;
+    width: 96%;
+    /* background-color: burlywood; */
+    background-image: url(https://images.unsplash.com/photo-1470072508653-1be229b63562?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#picture h1{
+    font-size: 70px;
+    color: white;
+    font-weight: 400;
+    position: absolute;
+    top: 60%;
+    left: 20%;
+    font-family: garamond;
+
+}
+#picture p{
+    font-size: 20px;
+    color: white;
+    font-weight: 100;
+    position: absolute;
+    top: 75%;
+    left: 26%;
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+button{
+    font-size: 16px;
+    color: black;
+    background-color:#F6F6F4;
+    position: absolute;
+    top: 85%;
+    left: 45%;
+    padding: 15px 27px;
+    border: 1px solid white;
+}
+button:hover{
+    font-size: 16px;
+    color: white;
+    background-color: black;
+    transition: all ease 0.7s;
+    border: 1px solid black;
+    cursor: pointer;
+}
+#bottom{
+    height: 100%;
+    width: 100%;
+    background-color: #F6F6F4;
+    display: flex;
+    position: relative;
+}
+#leftb{
+    height: 100%;
+    width: 50%;
+    background-color: black;
+    position: absolute;
+    left: 2%;
+    background-image: url(https://cdn.shopify.com/s/files/1/0110/8587/3210/files/aleph-beauty-CF-range.jpg?v=1600123067);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+}
+#rightb{
+    height: 100%;
+    width: 50%;
+    background-color:#eae9e6;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 48%;
+}
+#rightb h1{
+    font-size: 50px;
+    line-height: 61px;
+    font-style: normal;
+    font-weight: 100;
+    color: black;
+    position: absolute;
+    top: 15%;
+    left: 24%;
+    font-family: garamond;
+
+}
+#rightb h2{
+    font-size: 50px;
+    line-height: 61px;
+    font-style: normal;
+    font-weight: 400;
+    color: black;
+    position: absolute;
+    top: 20%;
+    left: 28%;
+    font-family: garamond;
+    margin-top: 20px;
+
+}
+#rightb h3{
+    font-size: 45px;
+    line-height: 61px;
+    font-style: normal;
+    font-weight: 400;
+    color: black;
+    position: absolute;
+    top: 36%;
+    left: 49%;
+    font-family: garamond;
+    font-style: italic;
+}
+#rightb p{
+   font-family: "Untitled Sans", sans-seri;
+   position: absolute;
+   left: 24%;
+   top: 48%;
+   color: black;
+   width: 400px;
+   font-size: 17px;
+   line-height: 23px;
+}
+.para{
+    font-family: "Untitled Sans", sans-seri;
+    position: absolute;
+    left: 24%;
+    top: 55%;
+    color: black;
+    width: 400px;
+    font-size: 17px;
+    line-height: 23px;
+    margin-top: 80px;  
+ }
+#icon{
+    font-size: 17px;  
+    font-weight: 400;
+    color: black;
+    position: absolute;
+    top: 70%;
+    left:24%;
+    display: flex;
+    letter-spacing: 1px;
+    gap: 27px;
+ 
+}
+#centerb{
+    font-size: 14px;
+    color: black;
+    background-color:#cfcfcb;
+    position: absolute;
+    top: 85%;
+    left: 24%;
+    padding: 15px 27px;
+    border: 1px solid rgb(227, 227, 227);
+}
+#centerb:hover{
+    background-color: black;
+    color: white;
+    transition: all ease 0.7s;
+    cursor: pointer;
+    border: 1px solid black;
+}
